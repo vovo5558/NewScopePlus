@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ZoomManager.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml">
     <Files>
-      <File FileName="Assets\Scripts\ZoomManager.cs" Line="34" Column="52" />
+      <File FileName="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" Line="288" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
