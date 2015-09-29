@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Top2_white" size="100.000000 100.000000" />
+    <ImageTarget name="Board" size="1262.000000 1364.000000" />
+    <CylinderTarget name="NO_TOP_Mirror" sideLength="110.000000"/>
+    <CylinderTarget name="NO_TOP" sideLength="110.000000"/>
+    <CylinderTarget name="Capa_L" sideLength="110.000000"/>
+    <CylinderTarget name="capa" sideLength="11.000000"/>
+  </Tracking>
+</QCARConfig>
