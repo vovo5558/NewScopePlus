@@ -18,11 +18,11 @@ public class AVProLiveCameraCameraExplorerDemo : MonoBehaviour
 	
 	public void Start()
 	{
-		//Application.runInBackground = true;
+		Application.runInBackground = true;
 		
-	//	EnumerateDevices();
+		EnumerateDevices();
 
-	/*	int numDevices = AVProLiveCameraManager.Instance.NumDevices;
+		int numDevices = AVProLiveCameraManager.Instance.NumDevices;
 		for (int i = 0; i < numDevices; i++)
 		{
 			AVProLiveCameraDevice device = AVProLiveCameraManager.Instance.GetDevice(i);
@@ -31,7 +31,7 @@ public class AVProLiveCameraCameraExplorerDemo : MonoBehaviour
 			device.UpdateHotSwap = AVProLiveCameraManager.Instance._supportHotSwapping;
 			device.UpdateFrameRates = true;
 			device.UpdateSettings = _updateDeviceSettings;
-		}*/
+		}
 	}
 	
 	private void EnumerateDevices()
@@ -111,6 +111,7 @@ public class AVProLiveCameraCameraExplorerDemo : MonoBehaviour
 
 	public void Update()
 	{
+		
 
 		// Handle mouse click to unzoom
 		if (_zoomed != null)
@@ -144,7 +145,7 @@ public class AVProLiveCameraCameraExplorerDemo : MonoBehaviour
 		EnumerateDevices();
 	}
 	
-	/*public void OnGUI()
+	public void OnGUI()
 	{	
 		GUI.skin = _guiSkin;
 		
@@ -327,5 +328,5 @@ public class AVProLiveCameraCameraExplorerDemo : MonoBehaviour
 			r.height = Mathf.Lerp(_zoomSrcDest.height, fullScreenRect.height, t);
 			GUI.DrawTexture(r, _zoomed, ScaleMode.ScaleToFit, false);
 		}		
-	}*/
+	}
 }
