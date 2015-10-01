@@ -9,7 +9,8 @@ public class ZoomManager : MonoBehaviour {
 	public Transform TranslateRight;
 	public Transform ScaleLeft;
 	public Transform ScaleRight;
-
+	public Transform VirtualObjectDisparity;
+	public Transform AVProPlane;
 	// Use this for initialization
 	void Start () {
 	
@@ -47,6 +48,30 @@ public class ZoomManager : MonoBehaviour {
 			TranslateLeft.localPosition -= new Vector3(0.04f, 0.0f, 0.0f);
 			TranslateRight.localPosition += new Vector3(0.04f, 0.0f, 0.0f);
 			//leftCamera
+		}
+
+		if (Input.GetKey (KeyCode.A)) 
+		{
+			VirtualObjectDisparity.localPosition += new Vector3(0.0f, 0.0f, 5.0f);
+			//VirtualObjectIPD
+		}
+		
+		if (Input.GetKey (KeyCode.D)) 
+		{
+			VirtualObjectDisparity.localPosition -= new Vector3(0.0f, 0.0f, 5.0f);
+			//VirtualObjectIPD
+		}
+
+		if (Input.GetKey (KeyCode.W)) 
+		{
+			AVProPlane.localPosition += new Vector3(5.0f, 0.0f, 0.0f);
+			//VirtualObjectIPD
+		}
+
+		if (Input.GetKey (KeyCode.S)) 
+		{
+			AVProPlane.localPosition -= new Vector3(5.0f, 0.0f, 0.0f);
+			//VirtualObjectIPD
 		}
 	}
 }
