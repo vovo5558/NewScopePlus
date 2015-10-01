@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ntu_logo" size="1055.000000 1056.000000" />
+    <ImageTarget name="Board" size="1062.000000 1147.835205" />
+  </Tracking>
+</QCARConfig>
