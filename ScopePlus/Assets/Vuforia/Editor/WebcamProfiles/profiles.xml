@@ -243,14 +243,14 @@
       <requestedTextureWidth>1600</requestedTextureWidth>
       <requestedTextureHeight>1200</requestedTextureHeight>
       <!-- size of the texture Unity's web cam texture will be rescaled to -->
-      <resampledTextureWidth>640</resampledTextureWidth>
+      <resampledTextureWidth>800</resampledTextureWidth>
     </windows>
     <osx>
       <!-- size of the web cam texture requested from Unity -->
       <requestedTextureWidth>1280</requestedTextureWidth>
       <requestedTextureHeight>720</requestedTextureHeight>
       <!-- size of the texture Unity's web cam texture will be rescaled to -->
-      <resampledTextureWidth>640</resampledTextureWidth>
+      <resampledTextureWidth>800</resampledTextureWidth>
     </osx>
   </webcam>
   <webcam deviceName="UI325xLE-C_4102832627">
@@ -259,14 +259,14 @@
       <requestedTextureWidth>1600</requestedTextureWidth>
       <requestedTextureHeight>1200</requestedTextureHeight>
       <!-- size of the texture Unity's web cam texture will be rescaled to -->
-      <resampledTextureWidth>640</resampledTextureWidth>
+      <resampledTextureWidth>800</resampledTextureWidth>
     </windows>
     <osx>
       <!-- size of the web cam texture requested from Unity -->
       <requestedTextureWidth>1280</requestedTextureWidth>
       <requestedTextureHeight>720</requestedTextureHeight>
       <!-- size of the texture Unity's web cam texture will be rescaled to -->
-      <resampledTextureWidth>640</resampledTextureWidth>
+      <resampledTextureWidth>800</resampledTextureWidth>
     </osx>
   </webcam>
   <webcam deviceName="UI325xLE-C_4102826019">

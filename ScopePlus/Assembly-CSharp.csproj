@@ -78,6 +78,7 @@
      <Compile Include="Assets\AVProLiveCamera\Scripts\Wrapper\AVProLiveCameraSettings.cs" />
      <Compile Include="Assets\Scripts\StartCamera.cs" />
      <Compile Include="Assets\Scripts\ZoomManager.cs" />
+     <Compile Include="Assets\VirtualButtonBehavior.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
