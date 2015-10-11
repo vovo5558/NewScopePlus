@@ -7,6 +7,7 @@ public class StartCamera : MonoBehaviour {
 	MeshRenderer mr;
 	// Use this for initialization
 	void Start () {
+
         AVProLiveCameraManager.Instance.GetDevice(deviceName).Start(-1);    
         mr = GetComponent<MeshRenderer> ();
 	}
@@ -23,6 +24,7 @@ public class StartCamera : MonoBehaviour {
 			// Update the actual image
 			device.Update(false);
 		}*/
+
         AVProLiveCameraDevice device = AVProLiveCameraManager.Instance.GetDevice(deviceName);
 		device.Update(false);
         mr.material.mainTexture = AVProLiveCameraManager.Instance.GetDevice(deviceName).OutputTexture;

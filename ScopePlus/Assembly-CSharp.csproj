@@ -76,6 +76,9 @@
      <Compile Include="Assets\AVProLiveCamera\Scripts\Wrapper\AVProLiveCameraManager.cs" />
      <Compile Include="Assets\AVProLiveCamera\Scripts\Wrapper\AVProLiveCameraPixelBuffer.cs" />
      <Compile Include="Assets\AVProLiveCamera\Scripts\Wrapper\AVProLiveCameraSettings.cs" />
+     <Compile Include="Assets\Scripts\ColorDetect.cs" />
+     <Compile Include="Assets\Scripts\ImageTargetManaget.cs" />
+     <Compile Include="Assets\Scripts\MenuAction.cs" />
      <Compile Include="Assets\Scripts\StartCamera.cs" />
      <Compile Include="Assets\Scripts\ZoomManager.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
@@ -189,17 +192,11 @@
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
  <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
