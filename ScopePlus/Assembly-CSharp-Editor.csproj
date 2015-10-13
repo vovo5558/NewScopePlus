@@ -147,6 +147,21 @@
  <Reference Include="UnityEditor.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="OpenCvSharp.Blob">
+ <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Plugins/OpenCVSharp/OpenCvSharp.Blob.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenCvSharp.CPlusPlus">
+ <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Plugins/OpenCVSharp/OpenCvSharp.CPlusPlus.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenCvSharp">
+ <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Plugins/OpenCVSharp/OpenCvSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenCvSharp.MachineLearning">
+ <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Plugins/OpenCVSharp/OpenCvSharp.MachineLearning.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenCvSharp.UserInterface">
+ <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Plugins/OpenCVSharp/OpenCvSharp.UserInterface.dll</HintPath>
+ </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
  <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Vuforia/Editor/Scripts/Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
