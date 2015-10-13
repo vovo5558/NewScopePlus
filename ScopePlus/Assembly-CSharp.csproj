@@ -83,6 +83,7 @@
      <Compile Include="Assets\Scripts\StartCamera.cs" />
      <Compile Include="Assets\Scripts\UnityCvBase.cs" />
      <Compile Include="Assets\Scripts\ZoomManager.cs" />
+     <Compile Include="Assets\VirtualButton.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -119,6 +120,10 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\plan_pro\FPSDisplay.cs" />
+     <Compile Include="Assets\plan_pro\about_project.cs" />
+     <Compile Include="Assets\plan_pro\tes.cs" />
+     <Compile Include="Assets\plan_pro\test_projectore_texture.cs" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\readme_SDK.txt" />
@@ -134,6 +139,7 @@
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
@@ -161,6 +167,7 @@
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
      <None Include="Assets\AVProLiveCamera\Shaders\AVProLiveCamera_YUV_YV12.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\ScopePlus.xml" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
      <None Include="Assets\AVProLiveCamera\Shaders\AVProLiveCamera_RAW_Mono8.shader" />
@@ -169,6 +176,7 @@
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\AVProLiveCamera\Shaders\AVProLiveCamera_YUV_HDYC2RGBA.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\AVProLiveCamera\Shaders\AVProLiveCamera_Shared.cginc" />
@@ -179,11 +187,13 @@
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\AVProLiveCamera\Shaders\AVProLiveCamera_Deinterlace.shader" />
+     <None Include="Assets\plan_pro\Alpha-Diffuse_DoNotIgnoreProjector.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\StreamingAssets\QCAR\TwoTargetTest.xml" />
@@ -194,11 +204,17 @@
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="OpenCvSharp.Blob">
  <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Plugins/OpenCVSharp/OpenCvSharp.Blob.dll</HintPath>
