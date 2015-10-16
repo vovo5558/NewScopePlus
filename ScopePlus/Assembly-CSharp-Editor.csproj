@@ -58,7 +58,6 @@
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\VuforuaTest_2.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
@@ -94,6 +93,7 @@
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
      <None Include="Assets\AVProLiveCamera\Shaders\AVProLiveCamera_YUV_YV12.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\ScopePlus_v2.xml" />
      <None Include="Assets\StreamingAssets\QCAR\ScopePlus.xml" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\AVProLiveCamera\Demos\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
@@ -137,9 +137,6 @@
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
  <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -154,9 +151,6 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="OpenCvSharp.Blob">
  <HintPath>C:/Users/yu009_000/Documents/NewScopePlus/ScopePlus/Assets/Plugins/OpenCVSharp/OpenCvSharp.Blob.dll</HintPath>
