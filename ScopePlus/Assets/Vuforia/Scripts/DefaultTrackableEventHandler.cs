@@ -20,7 +20,7 @@ namespace Vuforia
     
         #endregion // PRIVATE_MEMBER_VARIABLES
 
-
+	//	public GameObject AVProPlane;
 
         #region UNTIY_MONOBEHAVIOUR_METHODS
     
@@ -83,6 +83,14 @@ namespace Vuforia
                 component.enabled = true;
             }
 
+			if (mTrackableBehaviour.TrackableName == "Board_scaled") {
+				//Debug.Log("1 ");
+				//Debug.Log(AVProPlane.GetComponent<ColorDetect>().ledRegion.available);
+				GameObject.Find ("AVProPlane").SendMessage ("changeStatus", true);
+			} else {
+				GameObject.Find ("AVProPlane").SendMessage ("changeStatus", false);
+			}
+
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
 
@@ -103,7 +111,7 @@ namespace Vuforia
             {
                 component.enabled = false;
             }
-
+			GameObject.Find ("AVProPlane").SendMessage ("changeStatus", false);
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
         }
 

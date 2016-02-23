@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ColorDetect.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ColorDetect.cs" Line="153" Column="5" />
+      <File FileName="Assets\Scripts\SerialPortControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ZoomManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Alpha Mask(par).shader" Line="1" Column="1" />
+      <File FileName="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\plan_thres\about_thres.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

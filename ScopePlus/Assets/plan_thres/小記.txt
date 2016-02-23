@@ -1,0 +1,2 @@
+1.leftcamera的設定跟我原本計算的座標好像不太依樣 以致做warp有點問題
+2.一active image target 之後就會開啟所有仔物件的renderer 要在關掉有點麻煩

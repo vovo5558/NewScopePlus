@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: aac2ebefffd4ede469abd60b1f4e226e
+timeCreated: 1446044165
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ig_TrimmedParametricSurface1023
+    100002: ig_TrimmedParametricSurface103
+    100004: ig_TrimmedParametricSurface1051
+    100006: ig_TrimmedParametricSurface1079
+    100008: ig_TrimmedParametricSurface1107
+    100010: ig_TrimmedParametricSurface1135
+    100012: ig_TrimmedParametricSurface1195
+    100014: ig_TrimmedParametricSurface137
+    100016: ig_TrimmedParametricSurface171
+    100018: ig_TrimmedParametricSurface205
+    100020: ig_TrimmedParametricSurface239
+    100022: ig_TrimmedParametricSurface273
+    100024: ig_TrimmedParametricSurface329
+    100026: ig_TrimmedParametricSurface35
+    100028: ig_TrimmedParametricSurface385
+    100030: ig_TrimmedParametricSurface419
+    100032: ig_TrimmedParametricSurface453
+    100034: ig_TrimmedParametricSurface473
+    100036: ig_TrimmedParametricSurface507
+    100038: ig_TrimmedParametricSurface541
+    100040: ig_TrimmedParametricSurface575
+    100042: ig_TrimmedParametricSurface609
+    100044: ig_TrimmedParametricSurface633
+    100046: ig_TrimmedParametricSurface667
+    100048: ig_TrimmedParametricSurface69
+    100050: ig_TrimmedParametricSurface69 1
+    100052: ig_TrimmedParametricSurface691
+    100054: ig_TrimmedParametricSurface765
+    100056: ig_TrimmedParametricSurface799
+    100058: ig_TrimmedParametricSurface827
+    100060: ig_TrimmedParametricSurface855
+    100062: ig_TrimmedParametricSurface883
+    100064: ig_TrimmedParametricSurface911
+    100066: ig_TrimmedParametricSurface939
+    100068: ig_TrimmedParametricSurface967
+    100070: ig_TrimmedParametricSurface995
+    100072: User_Library_CEP2242_Buzzer
+    100074: world1
+    100076: //RootNode
+    400000: ig_TrimmedParametricSurface1023
+    400002: ig_TrimmedParametricSurface103
+    400004: ig_TrimmedParametricSurface1051
+    400006: ig_TrimmedParametricSurface1079
+    400008: ig_TrimmedParametricSurface1107
+    400010: ig_TrimmedParametricSurface1135
+    400012: ig_TrimmedParametricSurface1195
+    400014: ig_TrimmedParametricSurface137
+    400016: ig_TrimmedParametricSurface171
+    400018: ig_TrimmedParametricSurface205
+    400020: ig_TrimmedParametricSurface239
+    400022: ig_TrimmedParametricSurface273
+    400024: ig_TrimmedParametricSurface329
+    400026: ig_TrimmedParametricSurface35
+    400028: ig_TrimmedParametricSurface385
+    400030: ig_TrimmedParametricSurface419
+    400032: ig_TrimmedParametricSurface453
+    400034: ig_TrimmedParametricSurface473
+    400036: ig_TrimmedParametricSurface507
+    400038: ig_TrimmedParametricSurface541
+    400040: ig_TrimmedParametricSurface575
+    400042: ig_TrimmedParametricSurface609
+    400044: ig_TrimmedParametricSurface633
+    400046: ig_TrimmedParametricSurface667
+    400048: ig_TrimmedParametricSurface69
+    400050: ig_TrimmedParametricSurface69 1
+    400052: ig_TrimmedParametricSurface691
+    400054: ig_TrimmedParametricSurface765
+    400056: ig_TrimmedParametricSurface799
+    400058: ig_TrimmedParametricSurface827
+    400060: ig_TrimmedParametricSurface855
+    400062: ig_TrimmedParametricSurface883
+    400064: ig_TrimmedParametricSurface911
+    400066: ig_TrimmedParametricSurface939
+    400068: ig_TrimmedParametricSurface967
+    400070: ig_TrimmedParametricSurface995
+    400072: User_Library_CEP2242_Buzzer
+    400074: world1
+    400076: //RootNode
+    2300000: ig_TrimmedParametricSurface69
+    3300000: ig_TrimmedParametricSurface69
+    4300000: ig_TrimmedParametricSurface69
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

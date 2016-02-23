@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Stone_0804" size="266.000000 267.000000" />
+    <ImageTarget name="buttfly_black" size="512.000000 512.000000" />
+    <ImageTarget name="Board_scaled" size="553.000000 597.695740" />
+    <ImageTarget name="butterfly_white" size="512.000000 512.000000" />
+    <ImageTarget name="IMAG4265" size="800.000000 800.000000" />
+  </Tracking>
+</QCARConfig>

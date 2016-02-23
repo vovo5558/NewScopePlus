@@ -1,10 +1,5 @@
-fileFormatVersion: 2
+fileFormatVersion: 1
 guid: 8c2b450a9ff3efa4eaeb0bbce06b7e0a
 MonoImporter:
-  serializedVersion: 2
-  defaultReferences: []
+  importerVersion: 1
   executionOrder: 300
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
